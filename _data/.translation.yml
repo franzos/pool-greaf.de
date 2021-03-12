@@ -1,0 +1,112 @@
+general:
+  for-appointment-requests-please-use:
+    de: "Für Terminanfragen nutzen Sie bitte die folgenden Kontaktdaten. "
+    en: "For appointment requests please use the following contact details."
+  make-appointment:
+    de: "Termin vereinbaren"
+    en: "Make appointment"
+  online-anfragen:
+    de: "Jetzt Termin anfragen"
+    en: "Enquire for appointment online"
+  privatpatienten:
+    de: "Privatpatienten und Selbstzahler"
+    en: "Private patients and self-pay patients"
+  kassenpatienten:
+    de: "Kassenpatienten"
+    en: "Public health insurance"
+  patienten:
+    de: "Patienten"
+    en: "Patients"
+  termin:
+    de: "Termin"
+    en: "Appointment"
+  ab:
+    de: "ab"
+    en: "from"
+  kommentar:
+    de: "Kommentar"
+    en: "Comments"
+  email:
+    de: "Email"
+    en: "Email"
+  telefon:
+    de: "Telefon"
+    en: "Phone"
+  postleitzahl:
+    de: "Postleitzahl"
+    en: "Postal code"
+  ort:
+    de: "Ort"
+    en: "City"
+  strasse-nr:
+    de: "Strasse & Nr."
+    en: "Street & No."
+  name:
+    de: "Name"
+    en: "Name (Family name)"
+  datum:
+    de: "Datum"
+    en: "Date"
+  uhrzeit:
+    de: "Uhrzeit"
+    en: "Time"
+  vorname:
+    de: "Vorname"
+    en: "First name"
+  kontaktdaten:
+    de: "Ihre Kontaktdaten"
+    en: "Contact details"
+  arzt:
+    de: "Arzt"
+    en: "Doctor"
+  arzt-auswaehlen:
+    de: "Arzt auswählen"
+    en: "Select doctor"
+  bereich:
+    de: "Bereich"
+    en: "Discipline"
+  bereich-auswaehlen:
+    de: "Bereich auswählen"
+    en: "Select discipline"
+  waehlen-sie-ihren-gewuenschten:
+    de: "Bitte wählen Sie Ihren gewünschten Bereich oder Arzt."
+    en: "Please select your desired discipline or doctor."
+  termin-anfragen:
+    de: "Termin anfragen"
+    en: "Enquire about appointment"
+  sobald-ihre-terminanfrage-eingegangen-ist:
+    de: "Sobald Ihre Terminanfrage bei uns eingegangen ist, erhalten Sie eine Bestätigung."
+    en: "Once we have received your appointment enquiry, you will receive a confirmation."
+  ich-stimme-den-tos-zu:
+    de: "Ich habe die Datenschutzbestimmungen gelesen und stimme zu."
+    en: "I agree to the terms and conditions."
+  bevorzugtes-datum-und-genwuenschte-uhrzeit:
+    de: "Bitte tragen Sie Ihr bevorzugtes Datum und die gewünschte Uhrzeit ein."
+    en: "Please enter your preferred date and time."
+  deutschland:
+    de: Deutschland
+    en: Germany
+  luxembourg:
+    de: Luxemburg
+    en: Luxembourg
+  arabische-emirate:
+    de: V. Arabische Emirate
+    en: United Arab Emirates
+  fachabteilung-und-praxis:
+    de: "Praxen und MVZ"
+    en: "Specialist department and practice"
+  mvz-und-praxis:
+    de: "MVZ"
+    en: "Medical care centre"
+  zur-anmeldung:
+    de: "Zur Anmeldung"
+    en: "To the registration"
+  spezialgebiet:
+    de: "Spezialgebiet: austherapierte Tumorpatienten"
+    en: "Specialty: outpatients with tumors"
+  privatklinik-germanamerican:
+    de: "Privatklinik Germanamerican Hospital seit 22 Jahren"
+    en: "Private clinic Germanamerican Hospital since 22 years"
+  weaning-programm:
+    de: "Weaning-Programm für Beatmungspatienten"
+    en: "Weaning program for ventilator patients"

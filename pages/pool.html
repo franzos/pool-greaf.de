@@ -1,0 +1,170 @@
+---
+layout: default
+title: Pool
+subtitle:  
+description: Ob schlicht, modern, exklusiv oder edel, individuell und bedarfsgerecht planen und realisieren wir ihr Poolprojekt. Hochwertige und langlebige Materialien garantieren Ihnen sorgenfreien Poolspaß.
+background:
+cover: 'is-medium'
+coverImage: 'herr-im-pool.jpg'
+permalink: /pool/
+pool:
+  - title: Poolpflegemittel
+    url: "pool-pflegemittel.jpg"
+  - title: Filtertechnik
+    url: "pool-filtertechnik.jpg"
+  - title: Poolreinigungsroboter
+    url: "pool-reinigungsroboter.jpg"
+  - title: Poolüberdachung
+    url: "pool-dach-02.jpg"
+  - title: Poolabdeckung
+    url: "pool-cover.jpg"
+  - title: Gegenstromanlagen
+    url: "pool-gegenstromanlage.jpg"
+  - title: Poolheizung
+    url: "poolheizung.jpg"
+  - title: Wärmepumpe
+    url: "waermepumpe.jpg"
+  - title: Stilvolle Glasumrandung
+    url: "glasumrandung.jpg"
+---
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <h2 class="title is-2" id="pooltypen">Pooltypen</h2>
+
+    <div class="content">
+      <p>
+        Ob schlicht, modern, exklusiv oder edel, individuell und bedarfsgerecht planen und realisieren wir ihr Poolprojekt. Hochwertige und langlebige Materialien garantieren Ihnen sorgenfreien Poolspaß. 
+      </p>
+    </div>
+
+    <div class="columns">
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pooltyp-01.jpg">
+      </div>
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pooltyp-02.jpg">
+      </div>
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pooltyp-03.jpg">
+      </div>
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pooltyp-04.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <h2 class="title is-2" id="pooltypen">Poolarten</h2>
+
+    <div class="columns">
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pool-stufen.jpg">
+      </div>
+      <div class="column">
+        <div class="content">
+          <p>
+            Wählen Sie Ihren Swimmingpool aus einer Vielzahl von verschiedenen Bauweisen und Materialien. Wir erstellen gemeinsam mit Ihnen ein auf Ihre Bedürfnisse abgestimmtes Konzept. Bitte kontaktieren Sie uns.
+          </p>
+          <ul>
+            <li>Stahlbecken</li>
+            <li>Styropor/ Beton</li>
+            <li>Isotherm</li>
+            <li>Glasfaserverstärkter Kunststoff Monoblock (GFK)</li>
+            <li>Edelstahl</li>
+          </ul>
+          <a href="/kontakt/">
+            <button class="button is-primary">Anfrageformular</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <h2 class="title is-2" id="poolueberdachung">Poolüberdachung</h2>
+
+    <div class="content">
+      <p>
+        Schützen Sie Ihren Pool und verlängern Sie Ihre Badesaison mit einer Poolüberdachung.
+      </p>
+    </div>
+
+    <div class="columns">
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pool-dach-01.jpg">
+      </div>
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pool-dach-02.jpg">
+      </div>
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pool-dach-03.jpg">
+      </div>
+      <div class="column has-text-centered">
+        <img src="/assets/images/general/pool-dach-04.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <h2 class="title is-2" id="zubehoer">Wartung</h2>
+
+    <div class="columns">
+      <div class="column is-6">
+        <div class="content">
+          <p> Für ungetrübten Badespaß ist eine saisonale Wartung, insbesondere der Technik des Pools unabdingbar.</p>
+          <a href="/service/">
+            <button class="button is-primary">Mehr erfahren</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section
+  class="hero is-primary is-large is-bold has-background-image"
+  style="background-image: url('/assets/images/cover/frohes-kind.jpg')"
+>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1 has-text-shadow">
+        Vergessen Sie Ihren Alltag
+      </h1>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <h2 class="title is-2" id="zubehoer">Zubehör und Technik</h2>
+
+    <div class="content">
+      <p>
+        Individualisieren Sie Ihren Pool.
+      </p>
+    </div>
+
+    <div class="columns is-multiline has-text-centered">
+      {% for item in page.pool %}
+      <div class="column is-1">
+        <img src="/assets/images/general/{{ item.url }}" alt="{{ item.alt }}">
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="content">
+      <a href="/zubehoer-und-technik/">
+        <button class="button is-primary">Mehr erfahren</button>
+      </a>
+    </div>
+  </div>
+</section>
+
+{% include snippet_anfrage.html %}

@@ -1,0 +1,51 @@
+title: Pool- und Wellness- Manufaktur Gräf
+description: Kreative Ideen, innovative Lösungen in Top Qualität - das ist unser Anspruch.
+baseurl: ""
+url: ""
+festnetz: 036200-723934
+fax: 036200-723936
+phone: 0173 3570135
+email: info@pool-graef.de
+street: Alkersleber Weg 153
+postalcode: 99334
+city: OT Kirchheim
+area: Amt Wachsenburg
+
+location_coordinates: 50.8778149,11.0160262
+
+collections:
+  news:
+    output: true
+    cover: "is-small"
+
+nav_de:
+  - title: Home
+    permalink: /
+  - title: Pool
+    permalink: /pool/
+  - title: Sauna & Whirlpool
+    permalink: /sauna-und-whirlpool/
+  - title: Zubehör
+    permalink: /zubehoer-und-technik/
+  - title: Kontakt
+    permalink: /kontakt/
+
+exclude:
+  - src/
+  - gulpfile.js
+  - package.json
+  - yarn.lock
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .idea
+  - .bit.json
+  - .bitmap
+  - yarn-error.log
+  - bit.json
+  - s3_website.yml
+  - project.config

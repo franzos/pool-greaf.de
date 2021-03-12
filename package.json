@@ -1,0 +1,29 @@
+{
+  "name": "pool-und-wellness-manufaktur-graef",
+  "version": "0.1.0",
+  "description": "Pool- und Wellness MANUFAKTUR Gräf",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp; npm run css-build; bundle exec jekyll serve",
+    "deploy": "npm run css-watch; gulp; bundle exec jekyll build; s3_website push",
+    "css-build": "node-sass --omit-source-map-url sass/styles.scss assets/css/custom.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Franz Geffke <m@f-a.nz>",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^2.0.0",
+    "node-sass": "^5.0.0",
+    "pump": "^3.0.0"
+  },
+  "dependencies": {
+    "lunr": "^2.3.9",
+    "vue-carousel": "^0.18.0"
+  }
+}

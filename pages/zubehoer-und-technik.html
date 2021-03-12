@@ -1,0 +1,81 @@
+---
+layout: default
+title: "Zubehör und Technik"
+description:
+cover: 'is-medium'
+coverImage: 'poolheizung.jpg'
+permalink: /zubehoer-und-technik/
+pool:
+  - title: Poolpflegemittel
+    url: "pool-pflegemittel.jpg"
+  - title: Filtertechnik
+    url: "pool-filtertechnik.jpg"
+  - title: Poolreinigungsroboter
+    url: "pool-reinigungsroboter.jpg"
+  - title: Poolüberdachung
+    url: "pool-dach-02.jpg"
+  - title: Poolabdeckung
+    url: "pool-cover.jpg"
+  - title: Gegenstromanlagen
+    url: "pool-gegenstromanlage.jpg"
+  - title: Poolheizung
+    url: "poolheizung.jpg"
+  - title: Wärmepumpe
+    url: "waermepumpe.jpg"
+  - title: Stilvolle Glasumrandung
+    url: "glasumrandung.jpg"
+  - title: Poolsanierung
+    url: "poolsanierung.jpg"
+---
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <div class="columns is-multiline has-text-centered">
+      {% for item in page.pool %}
+      <div class="column is-3">
+        <img src="/assets/images/general/{{ item.url }}" alt="{{ item.alt }}">
+        <span>
+          <b>{{ item.title }}</b>
+        </span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="hero is-primary is-medium">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-2">
+        Sprechen Sie uns bitte an und lassen Sie sich beraten, wenn Sie nähere Informationen zu den Angeboten wünschen.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container{% if page.narrow == true%} narrow{% endif %}">
+    <h2 class="title is-2" id="poolsicherheit">Poolsicherheit / Windschutz</h2>
+
+    <div class="content">
+      <p>
+        Auch im Bereich Poolabsicherung stehen wir Ihnen mit kompetenter Beratung zur Seite. Egal ob temporär benötigt, oder als stilvoll an Ihr Objekt angepasstes, dauerhaftes Designelement. Wählen Sie auch hier aus einer Vielzahl von Möglichkeiten. 
+      </p>
+    </div>
+  </div>
+</section>
+
+<section
+  class="hero is-primary is-fullheight is-bold has-background-image"
+  style="background-image: url('/assets/images/cover/kind-am-pool-zaun.jpg')"
+>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1 has-text-shadow">
+        Ein Zaun hält kleine Abenteurer im Zaum
+      </h1>
+    </div>
+  </div>
+</section>
+
+{% include snippet_anfrage.html %}

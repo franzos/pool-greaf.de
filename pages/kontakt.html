@@ -1,0 +1,47 @@
+---
+layout: page
+title: Kontakt
+description:
+background: 
+cover: 'is-medium'
+coverImage: 'frauen-entspannen-im-pool.jpg'
+permalink: /kontakt/
+---
+
+<div class="columns">
+  <div class="column is-3">
+    <div class="content">
+      <p class="title is-5">
+        <strong>{{ site.title }}</strong>
+      </p>
+      <p>
+        {{ site.street }}
+        <br />{{ site.city }}
+        <br />{{ site.postalcode }} {{ site.area }}
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <br /><strong>Handy:</strong> <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+        <br /><strong>Festnetz:</strong> <a href="tel:{{ site.festnetz }}">{{ site.festnetz }}</a>
+        <br /><strong>Fax:</strong> {{ site.fax }}
+      </p>
+      <p>
+        <small>
+          <b>Bürozeiten</b>
+          <br />Sie erreichen uns von Montag bis Freitag telefonisch in der Zeit von 9:00 Uhr - 17:00 Uhr. Bürotermine nach Vereinbarung.
+        </small>
+      </p>
+      <iframe
+        width="100%"
+        height="180"
+        style="margin-bottom: 1rem; height: 180px;"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBqrVwB5IxkapsCaUpVBzc95Uh5uo5C_Nk&q=50.8973974,11.0005845&zoom=8&language=de" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+  <div class="column is-offset-1">
+    <h3 class="title is-2" id="anfrage">Anfrage</h3>
+    {% include snippet_formular.html %}
+  </div>
+</div>

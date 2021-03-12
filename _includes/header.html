@@ -1,0 +1,126 @@
+{% if page.coverImage %}
+<section 
+  class="hero is-primary is-cover {% if page.cover %}{{ page.cover }}{% endif %} has-background-image"
+  style="background-image: url('/assets/images/cover/{{ page.coverImage }}');"
+>
+{% else %}
+<section 
+  class="hero is-primary is-cover {% if page.cover %}{{ page.cover }}{% endif %}"
+>
+{% endif %}
+  {% if page.permalink == "/" %}
+  <div class="hero-head">
+    <a href="/">
+      <img src="/assets/images/logo_bright.png" alt="{{ site.title }}" class="top-logo">
+    </a>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <!--
+        <a class="navbar-item" href="{% if page.lang == "en" %}/en/{% else %}/{% endif %}" style="padding: 0.5rem 1.5rem 0 1.5rem;">
+          <img src="/assets/images/logo_bright.png" width="74.5" height="50" style="max-height: 50px;">
+        </a>
+        -->
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarTop">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarTop" class="navbar-menu">
+        <div class="navbar-end">
+          {% for item in site.nav_de %}
+          {% if item.dropdown %}
+          <div class="navbar-item{% if page.permalink contains item.permalink %} active{% endif %} has-dropdown is-hoverable">
+            <a class="navbar-link">
+              {{ item.dropdown[0].title }}
+            </a>
+            <div class="navbar-dropdown">
+              {% for drop_item in item.dropdown %}
+              {% if drop_item.type != 'dropdowntitle' %}
+              <a class="navbar-item{% if page.permalink contains item.permalink %} active{% endif %}" href="{{ drop_item.permalink }}">
+                {{ drop_item.title }}
+              </a>
+              {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+          {% else %}
+          <a class="navbar-item{% if item.permalink == page.permalink %} active{% endif %}" href="{{ item.permalink }}">
+            {{ item.title }}
+          </a>
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="hero-foot">
+    <div class="container has-text-centered">
+      <h1 class="title is-1 has-text-shadow" style="font-size:6rem">Meer zu Hause</h1>
+      <h2 class="subtitle is-2 has-text-shadow" style="font-size:4rem; margin-bottom: 1rem;">Pool- und Wellness- Manufaktur Gräf</h2>
+    </div>
+  </div>
+  {% else %}
+  <div class="hero-image-overlay">
+    <a href="/">
+      <img src="/assets/images/logo_bright.png" alt="{{ site.title }}" class="top-logo">
+    </a>
+    <div class="hero-head">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <!--
+          <a class="navbar-item" href="{% if page.lang == "en" %}/en/{% else %}/{% endif %}" style="padding: 0.5rem 1.5rem 0 1.5rem;">
+            <img src="/assets/images/logo.png" width="74.5" height="50" style="max-height: 50px;">
+          </a>
+          -->
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarTop">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarTop" class="navbar-menu">
+          <div class="navbar-end">
+            {% for item in site.nav_de %}
+            {% if item.dropdown %}
+            <div class="navbar-item{% if page.permalink contains item.permalink %} active{% endif %} has-dropdown is-hoverable">
+              <a class="navbar-link">
+                {{ item.dropdown[0].title }}
+              </a>
+              <div class="navbar-dropdown">
+                {% for drop_item in item.dropdown %}
+                {% if drop_item.type != 'dropdowntitle' %}
+                <a class="navbar-item{% if page.permalink contains item.permalink %} active{% endif %}" href="{{ drop_item.permalink }}">
+                  {{ drop_item.title }}
+                </a>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+            {% else %}
+            <a class="navbar-item{% if item.permalink == page.permalink %} active{% endif %}" href="{{ item.permalink }}">
+              {{ item.title }}
+            </a>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title is-1 has-text-shadow-light">
+          {{ page.title }}
+        </h1>
+        {% if page.subtitle %}
+        <h2 class="subtitle is-2">
+          {{ page.subtitle }}
+        </h2>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</section>

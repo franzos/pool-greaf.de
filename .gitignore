@@ -1,0 +1,11 @@
+_site
+assets/css/*
+assets/images/cover/*
+assets/images/general/*
+package-lock.json
+node_modules
+.idea
+.DS_Store
+vendor/
+project.config
+.jekyll-cache

@@ -1,0 +1,108 @@
+---
+layout: default
+title: Urlaub zu Hause
+subtitle: Kreative Ideen und Innovative Lösungen in Top Qualität - das ist unser Anspruch.
+description: Profitieren Sie von unserer langjährigen Handwerkserfahrung. Mit größter Sorgfalt verwandeln wir ihr Zuhause in eine Wellness-Oase, ...
+cover: 'is-fullheight'
+coverImage: 'home.jpg'
+permalink: /
+pool:
+  - title: Neubau
+    url: "/pool/"
+  - title: Poolüberdachung
+    url: "/pool/#poolueberdachung"
+  - title: Wartung und Pflege
+    url: "/zubehoer-und-technik/"
+  - title: Zubehör
+    url: "/zubehoer-und-technik/"
+sauna:
+  - title: Sauna
+    image: "sauna.jpg"
+    url: "/sauna-und-whirlpool/"
+  - title: Whirlpool
+    image: "whirlpool.jpg"
+    url: "/sauna-und-whirlpool/#whirlpool"
+---
+
+<section class="hero is-primary is-medium has-border-bottom-primary">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-2">
+        {{ page.description }}
+      </p>
+    </div>
+  </div>
+</section>
+
+<section
+  class="hero is-primary is-fullheight is-bold has-background-image"
+  style="background-image: url('/assets/images/cover/kinder-springen-in-den-pool.jpg')"
+>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title is-1 has-text-shadow" style="font-size: 6rem;">
+        Pool
+      </h1>
+      <ul>
+        {% for item in page.pool %}
+        <li>
+          <div class="sub-item">
+            <a href="{{ item.url }}">
+              {{ item.title }}
+            </a>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-primary is-medium has-border-bottom-primary">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-2">
+        ... ganz nach Ihren Vorstellungen und Wünschen - technisch auf dem neuesten Stand, handwerklich perfekt ausgeführt.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section
+  class="hero is-primary is-fullheight is-bold has-background-image"
+  style="background-image: url('/assets/images/cover/sauna-aufguss.jpg')"
+>
+  <div class="hero-body">
+    <div class="container" style="max-width: 600px;">
+      <div class="columns">
+        {% for item in page.sauna %}
+        <div class="column">
+          <a href="{{ item.url }}">
+            <img style="padding: 1rem;" alt="{{ item.title }}" src="/assets/images/general/{{ item.image }}">
+          </a>
+          <div class="sub-item" style="margin:auto">
+            <a href="{{ item.url }}">
+              {{ item.title }}
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-primary is-medium has-border-bottom-primary">
+  <div class="hero-body">
+    <div class="container">
+      <p class="title is-2">
+      Holen Sie sich den täglichen Urlaub nach Hause. Ob heiß, warm oder eiskalt, wir verleihen Ihren individuellen Vorstellungen Leben.
+      </p>
+      <p class="title is-5" style="line-height: 2rem;">
+        Gleich Kontakt aufnehmen und Traum erfüllen:
+        <br /><b>T.:</b> <a href="tel:{{ site.phone }}">{{ site.phone }}</a> (jeden Tag von 9.00 Uhr - 17.30 Uhr)
+        <br><b>E.:</b> <a href="mailto:{{ site.email }}?Subject=Anfrage">{{ site.email }}</a>.
+      </p>
+    </div>
+  </div>
+</section>
