@@ -1,5 +1,5 @@
 title: Pool- und Wellness- Manufaktur Gräf
-description: Kreative Ideen, innovative Lösungen in Top Qualität - das ist unser Anspruch.
+description: Holen Sie sich den täglichen Urlaub nach Hause. Ob heiß, warm oder eiskalt, wir verleihen Ihren individuellen Vorstellungen Leben.
 baseurl: ""
 url: ""
 festnetz: 036200-723934
@@ -34,18 +34,16 @@ exclude:
   - src/
   - gulpfile.js
   - package.json
+  - package-lock.json
   - yarn.lock
   - Gemfile
   - Gemfile.lock
   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor
   - .idea
-  - .bit.json
+  - run.sh
   - .bitmap
   - yarn-error.log
-  - bit.json
+  - fulpfile.ks
   - s3_website.yml
   - project.config
