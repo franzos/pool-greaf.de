@@ -11,7 +11,7 @@ permalink: /agb/
 
 **1.2** Entgegenstehende oder von diesen Geschäftsbedingungen abweichende Bedingungen des Vertragspartners werden von uns nicht anerkannt und sind für uns auch dann unverbindlich, wenn ihnen nicht ausdrücklich widersprochen wurde.
 
-## 2. Angebot und Vertragsabschluss
+## 2. Angebot, Prüfung und Vertragsabschluss
 
 **2.1** Unseren Angeboten liegt die am Tage der Angebotsabgabe gültige Preisliste zugrunde. Die Preise sind grundsätzlich freibleibend, wenn nicht schriftlich etwas anderes vereinbart ist. Ergänzungen, Abänderungen oder Nebenabreden bedürfen unserer schriftlichen oder fernschriftlichen Bestätigung.
 
@@ -21,13 +21,17 @@ permalink: /agb/
 
 **2.4** Wir behalten uns das Recht vor, durch technische Fortschritte bedingte Änderungen an unseren Erzeugnissen vorzunehmen, ohne, dass der Käufer daraus Rechte herleiten könnte, sofern eine nur unwesentliche Abweichung der Beschaffenheit damit einhergeht.
 
-**2.5** Der Vertrag kommt erst durch unsere schriftliche Bestätigung zustande.
+**2.5** Unser Unternehmen prüft regelmäßig bei Vertragsabschlüssen und in bestimmten Fällen, in denen ein berechtigtes Interesse vorliegt, auch bei Bestandskunden Ihre Bonität. Dazu arbeiten wir mit der Creditreform Boniversum GmbH, Hammfelddamm 13, 41460 Neuss, zusammen, von der wir die dazu benötigten Daten erhalten. Zu diesem Zweck übermitteln wir Ihren Namen und Ihre Kontaktdaten an die Creditreform Boniversum GmbH. Die Informationen gem. Art. 14 der EU Datenschutz-Grundverordnung zu der bei der Creditreform Boniversum GmbH stattfindenden Datenverarbeitung finden Sie hier: www.boniversum.de/eu-dsgvo/
+
+**2.6** Der Vertrag kommt erst durch unsere schriftliche Bestätigung zustande.
 
 ## 3. Rücktritt vom Vertrag
 
 **3.1** Der Käufer hat seinen Verpflichtungen aus dem Vertrag termingerecht nachzukommen.
 
 **3.2** Die Beanstandung von Teilleistungen berechtigt nicht zur Ablehnung der Restlieferung.
+
+**3.3** Bei Bestellung von Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind, ist ein Rücktritt von einem bereits geschlossenen Kaufvertrag nicht möglich. (§312g, ABS 1 BGB)
 
 ## 4. Preise und Preisstellung
 
@@ -76,6 +80,8 @@ permalink: /agb/
 **8.8** Der Kunde kann nur mit solchen Forderungen aufrechnen, die unbestritten oder rechtskräftig festgestellt sind.
 
 **8.9** Ein Zurückbehaltungsrecht steht dem Kunden nur zu, wenn und soweit dessen Gegenforderungen unbestritten oder rechtskräftig festgestellt sind.
+
+**8.10** Sofern die Forderung nicht bestritten wird, kann eine Berücksichtigung der Daten über diese nicht bezahlte Forderung unter den weiteren Voraussetzungen des § 31 Abs. 2 BDSG-neu durch die Auskunftei Creditreform Boniversum bei der Ermittlung eines Wahrscheinlichkeitswerts über die Zahlungsfähig- und Zahlungswilligkeit erfolgen. Den Gesetzeswortlaut des § 31 Abs. 2 BDSG-neu finden Sie hier: www.boniversum.de/eu-dsgvo/
 
 ## 9. Eigentumsvorbehalt
 
