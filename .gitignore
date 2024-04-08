@@ -1,4 +1,6 @@
 _site
+.site
+.bundler
 assets/css/*
 assets/images/cover/*
 assets/images/general/*

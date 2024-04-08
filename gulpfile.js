@@ -1,8 +1,5 @@
 var gulp = require("gulp");
-var concat = require("gulp-concat");
-var uglify = require("gulp-uglify-es").default;
-var pump = require("pump");
-var sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 
 sass.compiler = require('node-sass');
 
