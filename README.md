@@ -16,6 +16,7 @@ pnpm install
 Build:
 
 ```bash
+bash build.sh
 BUNDLE_PATH=.bundler bundle exec jekyll build -d .site
 ```
 
